@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Dungeon Simplesmente Dungeon</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div id="enemy">
+                <img id="enemy_img" src="./assets/enemies/Slime.png" width="128">
+                <p id="enemy_dmg" class="display-none">6</p>
+            </div>
+            
+            <div class="status">
+                <p id="enemy_name"></p>
+                <p id="enemy_hp"></p>
+            </div>
+        </section>
+        <div id="message" class="display-none">
+            dafdsfs
+        </div>
+        <section>
+            <img src="./assets/hero/Hero.png" width="450">
+            <div class="player-status">
+                <div id="actions">
+                    <button id="attackBtn">Atacar</button>
+                    <button id="healBtn">Curar</button>
+                </div>
+                <div class="status">
+                    <p id="player_name"></p>
+                    <p id="player_level"></p>
+                    <p id="player_hp"></p>
+                    <p id="player_potion"></p>
+                </div>
+            </div>
+            
+            
+        </section>
+    </main>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
